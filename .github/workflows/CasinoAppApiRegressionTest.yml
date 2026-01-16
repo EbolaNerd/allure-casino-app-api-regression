@@ -36,7 +36,7 @@ jobs:
       with: 
         allure-endpoint: https://lawo.testops.cloud
         allure-token: ${{ secrets.ALLURE_TOKEN }}
-        allure-project-id: 1
+        allure-project-id: 34
     - name: Run Newman with Allure
       run: |
         allurectl watch -- \
